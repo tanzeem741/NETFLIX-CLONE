@@ -1,0 +1,140 @@
+.details {
+    height: 400px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+    width:96%;
+    font-size: 1rem;
+    box-sizing:border-box;
+}
+
+.details__container {
+    margin-left: 30px;
+    padding-top: 50px;
+    width: 25rem;
+    font-size: 1rem;
+    color: rgb(238, 226, 226);
+}
+
+.details__name {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.details_pop {
+    color: green;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-weight: 650;
+}
+
+.details_runtime {
+    display: block;
+    margin: 1rem 0rem;
+    font-weight: 600;
+}
+
+.details_seasons {
+    margin-left: 1rem;
+    color: #ccc;
+}
+
+.details_date {
+    margin-left: 1rem;
+}
+
+.details__lastair {
+    margin: 1rem 0rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.details_lastairdate {
+    margin-left: 5px;
+    color: green;
+}
+
+.details__description {
+    color: #9e9292;
+    margin: 1rem 0rem;
+}
+
+.details__buttons {
+    margin: 1rem 0rem;
+}
+
+button {
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.details__button__play {
+    background: red;
+    color: #fff;
+    margin-right: 1rem;
+    border: 1px solid red;
+}
+
+.details__button__myList {
+    background: #fefefe;
+    color: #666;
+    border: 1px solid #fefefe;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.details__genres {
+    color: #ccc;
+}
+
+.details__genres__small {
+    color: #9e9292;
+    margin-right: 5px;
+}
+
+.trailer {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    .details {
+        height: 326px;
+        width: auto;
+    }
+
+    .details__container {
+        padding-top: 20px;
+        max-width: 14rem;
+        margin-left: 20px;
+        font-size: 0.8rem;
+    }
+
+    .details__description {
+        font-size: 0.7rem;
+    }
+
+    .details__name {
+        font-size: 1.2rem;
+    }
+
+    .details_pop {
+        font-size: 0.6rem;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 100% !important;
+        margin-right: 2rem;
+    }
+}
